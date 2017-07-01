@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install Node.js https://nodejs.org/en/
+Install Node.js [link: https://nodejs.org/en/ text: node.js]
 
 Install those node modules:
 
@@ -28,4 +28,3 @@ mygallery:
     label: My Gallery
     type: gallery
 ```
-

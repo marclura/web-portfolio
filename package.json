@@ -1,0 +1,25 @@
+{
+  "name": "web-portfolio",
+  "version": "0.0.1",
+  "description": "Personal web portfolio",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-util": "^3.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marclura/web-portfolio.git"
+  },
+  "author": "Marco Lurati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marclura/web-portfolio/issues"
+  },
+  "homepage": "https://github.com/marclura/web-portfolio#readme"
+}
