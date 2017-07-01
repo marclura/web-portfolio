@@ -2,11 +2,9 @@
 
 ## Installation
 
-- Install Node.js
+Install Node.js https://nodejs.org/en/
 
-	https://nodejs.org/en/
-
-- Install those node modules
+Install those node modules:
 
 ```
 npm install gulp
