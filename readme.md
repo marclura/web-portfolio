@@ -1,25 +1,22 @@
-# Marco Lurati's portfolio
+# Web portfolio
 
 ## Installation
 
 - Install Node.js
 
-https://nodejs.org/en/
+	https://nodejs.org/en/
 
 - Install Gulp
 
 ```
-npm install --global gulp
+npm install gulp
 ```
 
-- Install the following gulp packages
+- Install gulp-sass
 
 ```
-npm install --save-dev gulp gulp-postcss gulp-sourcemaps gulp-sass autoprefixer lost
+npm install gulp-sass
 ```
-
-- Create a gulpfile.js in the root folder
-
 
 ## Kirby plugins
 
