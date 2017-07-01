@@ -1,0 +1,93 @@
+Title: ACVC Exhibition
+
+----
+
+Coverimage: acvc_exhibition-bg.jpg
+
+----
+
+Thumbimage: acvc_exhibition-main.jpg
+
+----
+
+Subtitle: Interactive digital archive exhibition
+
+----
+
+Abstract: 
+
+This project begun as my master thesis with the aim of creating a new interactive way of exhibiting pictures. The audio-visual archive of Capriasca and Val Colla in Ticino, Switzerland (Archivio Audiovisivo di Capriasca e Val Colla) wanted to create a permanent exhibition for its contents consisting of digital pictures, printed pictures and oral interviews in witch elderly people from the region narrate their stories and share their memories.
+Different topics have been talked during my research; how to share digital pictures with visitors that have different experiences, needs and abilities regarding their interaction with new technologies, how to actively engage them and grab their attention, how to stimulate discussions create a sharing experience, and most important how to provide an open and free way to explore the content. Therefore, the designed system and its interaction modality was a consequence of those designs research questions and not the other way around.
+
+----
+
+Video: https://vimeo.com/101363490
+
+----
+
+Roles: 
+
+- 
+  item: Personal master thesis project
+
+----
+
+Gallery: 
+
+- acvc_exhibition_01.jpg
+- acvc_exhibition_02.jpg
+- acvc_exhibition_03.jpg
+- acvc_exhibition_04.jpg
+- acvc_exhibition_05.jpg
+- acvc_exhibition_06.jpg
+- acvc_exhibition_07.jpg
+- acvc_exhibition_08.jpg
+- acvc_exhibition_09.jpg
+- acvc_exhibition_10.jpg
+- acvc_exhibition_11.jpg
+- acvc_exhibition_12.jpg
+- acvc_exhibition_13.jpg
+- acvc_exhibition_14.jpg
+- acvc_exhibition_15.jpg
+- acvc_exhibition_16.jpg
+- acvc_exhibition_17.jpg
+
+----
+
+Technologies: 
+
+----
+
+Credits: 
+
+----
+
+Copyright: byncsa
+
+----
+
+Repo: 
+
+----
+
+Extlinks: 
+
+- 
+  title: ACVC website
+  url: http://www.acvc.ch/
+- 
+  title: Tumblr of the project
+  url: https://www.tumblr.com/blog/acvc
+
+----
+
+Paragraphs: 
+
+- 
+  text: |
+    After several concept development, iterations and physical prototyping, an interactive exhibition was fully designed putting into consideration the organisation of the space itself.
+    
+    The exhibition consists of an interactive table that allows the visitors to explore the digital pictures of the archive by using an open, physical and playful filtering system.
+    For the oral interviews, an audio station was designed to discover the narrated stories and memories of elder people who live in the region.
+    Additionally a selection of the most significant pictures would be printed and displayed in the exhibition.
+  image: ""

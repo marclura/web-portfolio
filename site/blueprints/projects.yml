@@ -1,0 +1,20 @@
+// blueprint (template) name
+title: projects
+
+// page settings
+options:
+  delete: false
+  status: true
+
+// subpages settings
+pages: true
+  template: project
+
+// file settings
+files: false
+
+// fields contents  
+fields:
+  title:
+    label: Title
+    type: title

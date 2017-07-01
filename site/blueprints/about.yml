@@ -1,0 +1,113 @@
+// blueprint (template) name
+title: about
+
+// page settings
+options:
+  delete: false
+  status: true
+
+// subpages settings
+pages: false
+
+// file settings
+files: 
+  fields: 
+      alt:
+        label: Alt text
+        type: text
+
+// fields contents  
+fields:
+  title:
+    label: Title
+    type: title
+  name:
+    label: Name Surname
+    type: text
+  picture:
+    label: Profile picture
+    type: image
+  presentation:
+    label: Presentation
+    type: textarea
+  education:
+    label: Education
+    type: structure
+    entry: >
+      <b>{{degree}}</b><br>
+      {{university}}<br>
+      {{place}}<br>
+      {{website}}
+    fields:
+      degree:
+        label: Degree
+        type: text
+      university:
+        label: Univerity
+        type: text
+      place:
+        label: Place
+        type: text
+      website:
+        label: link
+        type: url
+  work:
+    label: Work
+    type: structure
+    entry: >
+        <b>{{employer}}</b><br>
+        {{place}}<br>
+        {{website}}<br>
+        <i>{{position}}</i><br><br>
+        {{tasks}}
+    fields:
+      employer:
+        label: Employer
+        type: text
+      place:
+        label: Place
+        type: text
+      website:
+        label: link
+        type: url
+      position:
+        label: Position
+        type: text
+      tasks:
+        label: Tasks
+        type: textarea
+  design_skills:
+    label: Desing skills
+    type: structure
+    style: table
+    fields:
+      design:
+        label: skill
+        type: text
+  engineering_skills:
+    label: Engineering skills
+    type: structure
+    style: table
+    fields:
+      design:
+        label: skill
+        type: text
+  coding_skills:
+    label: Coding skills
+    type: structure
+    style: table
+    fields:
+      design:
+        label: skill
+        type: text
+  fabrication_skills:
+    label: Fabrication skills
+    type: structure
+    style: table
+    fields:
+      design:
+        label: skill
+        type: text
+  interests:
+    label: What I love to do
+    type: textarea

@@ -1,0 +1,128 @@
+Title: About
+
+----
+
+Intro: This page demonstrates how you can utilize subpages to store content, like our team members shown below. This approach is especially useful when you have to handle a large number of datasets, many different kinds of data (like page sections) or very complex data with a lot of media files or fields.
+
+----
+
+Text: The approach of using subpages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different kinds of content.
+
+----
+
+Name: Marco Lurati
+
+----
+
+Picture: 
+
+----
+
+Presentation: I can define myself as an interaction designer. My background derives from two fields that might seem divergent but in reality they are quite complementary; engineering and design. Initially I studied electronics in multimedia and later I specialised in micro-technology. During my career I felt the need to develop my creative side more professionally. This is why I decided to do my masters in interaction design. As a result, the combination of both my technical and creative abilities allowed me to not just design and conceptualise new ideas but also properly build them for real. I became very interested in the process of designing practical interactions based on research and real users’ needs. I also enjoy working on multidisciplinary projects, in which the challenge of linking the conceptual, design, and technical aspects allows me to constantly exploit and develop my abilities. My gateway from all the brain activities is photography that is by far my favourite hobby. It gives me a good sense of composition, aesthetics, and a good eye for details.
+
+----
+
+Education: 
+
+- 
+  degree: >
+    Master of Advanced Studies in
+    Interaction Design
+  university: >
+    University of Applied Sciences and Arts,
+    SUPSI
+  place: Lugano (Switzerland)
+  website: https://maind.supsi.ch
+- 
+  degree: Bachelor of Science in Micro-engineering
+  university: >
+    Bern University of Applied Sciences,
+    BUAS
+  place: Biel/Bienne (Switzerland)
+  website: >
+    https://www.ti.bfh.ch/en/bachelor/micro_and_medicaltechnology.html
+- 
+  degree: Electronic technician in audio and video
+  university: "Scuola d'Arti e Mestieri, SAMT"
+  place: Trevano-Canobbio (Switzerland)
+
+----
+
+Work: 
+
+- 
+  employer: Accademia di Architettura USI
+  place: Mendrisio (Switzerland)
+  website: ""
+  position: Assistant for the Atelier Blumer
+  tasks: ""
+- 
+  employer: SUPSI
+  place: Trevano Canobbio
+  website: http://www.supsi.ch/lcv
+  position: Scientific collaborator
+  tasks: >
+    Website design (front end, Kirby,
+    Wordpress, ...
+- 
+  employer: SENSOPTIC SA
+  place: Losone (Switzerland)
+  position: Laboratory engineer in Micro-engineering
+  tasks: >
+    Production and quality control of
+    optical sensors, design, fine tuning and
+    creation of production tools, mechanical
+    and micro-mechanical manufacturing
+    (lathe and milling machine), product
+    photography and video for documentation
+    and advertising, responsible for the
+    final work of poly-mechanic apprentice
+  website: http://www.sensoptic.ch/
+
+----
+
+Interests: Build, learn
+
+----
+
+Design-skills: 
+
+- 
+  design: Interaction design IxD
+
+----
+
+Engineering-skills: 
+
+- 
+  design: Digital fabrication
+- 
+  design: CAD modeling
+- 
+  design: Electronics
+
+----
+
+Coding-skills: 
+
+- 
+  design: CSS, SASS, HTML, PHP
+- 
+  design: Processing
+- 
+  design: Arduino
+
+----
+
+Fabrication-skills: 
+
+- 
+  design: 3D printing
+- 
+  design: Lasercut
+- 
+  design: CNC milling machine
+- 
+  design: Woodworking
+- 
+  design: Metalworking
