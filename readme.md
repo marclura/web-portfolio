@@ -6,15 +6,10 @@
 
 	https://nodejs.org/en/
 
-- Install Gulp
+- Install those node modules
 
 ```
 npm install gulp
-```
-
-- Install gulp-sass
-
-```
 npm install gulp-sass
 ```
 
