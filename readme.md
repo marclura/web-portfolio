@@ -36,4 +36,4 @@ mygallery:
 $ gulp
 ```
 
-[http://localhost:3000](http://localhost:3000)
+A new folder is created with the name of 'dist', and it's already accessible at [http://localhost:3000](http://localhost:3000)
