@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install Node.js [link: https://nodejs.org/en/ text: node.js]
+Install Node.js [link node.js](https://nodejs.org/en/).
 
 Install those node modules:
 
@@ -18,7 +18,7 @@ $ npm install
 
 ## Kirby plugins
 
-- Add the [link: https://github.com/TimOetting/kirby-gallery text "gallery" plugin] to generate galleries
+- Add the [link  "gallery" plugin](https://github.com/TimOetting/kirby-gallery) to generate galleries
 
 Copy it in site > fileds
 
