@@ -9,8 +9,7 @@
     "gulp-connect-php": "^1.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "gulp-util": "^3.0.8"
+    "gulp-sourcemaps": "^2.6.0"
   },
   "repository": {
     "type": "git",

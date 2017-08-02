@@ -1,0 +1,109 @@
+// blueprint (template) name
+title: project
+
+// page settings
+options:
+  delete: true
+  status: true
+
+// subpages settings
+pages: false
+  
+
+// file settings
+files: 
+  fields: 
+      alt:
+        label: Alt text
+        type: text
+
+// fields contents  
+fields:
+  title:
+    label: Title
+    type: title
+  subtitle:
+    label: Subtitle
+    type: text
+  abstract:
+    label: Abstract
+    type: textarea
+  paragraphs:
+    label: Paragraphs
+    type: structure
+    fields:
+      text:
+        label: Text
+        type: textarea
+      image:
+        label: Image
+        type: image
+  coverimage:
+    label: Cover image
+    type: image
+  thumbimage:
+    label: Thumb image
+    type: image
+  video:
+    label: Video
+    type: url
+  roles:
+    label: Roles in the project
+    type: structure
+    style: table
+    fields:
+      item:
+        label: Role
+        type: text
+  technologies:
+    label: Technologies used
+    type: structure
+    style: table
+    fields:
+      item:
+        label: Technology
+        type: text
+      url:
+        label: Link
+        type: url
+  credits:
+    label: Credits
+    type: structure
+    style: table
+    fields:
+      name:
+        label: Name
+        type: text
+      url:
+        label: Link
+        type: url
+  copyright:
+    label: Copyright
+    type: radio
+    default: byncsa
+    options:
+      cco: CCO
+      by: BY
+      bysa: BY-SA
+      bynd: BY-ND
+      bync: BY-NC
+      byncsa: BY-NC-SA
+      byncnd: BY-NC-ND
+  repo:
+    label: Project repository
+    type: url
+  extlinks:
+    label: External links
+    type: structure
+    style: table
+    fields:
+      title:
+        label: Title
+        type: text
+      url:
+        label: Link
+        type: url
+  gallery:
+    label: Gallery
+    type: gallery
+

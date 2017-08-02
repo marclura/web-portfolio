@@ -1,0 +1,17 @@
+Title: Marco Lurati's Portfolio
+
+----
+
+Author: Marco Lurati
+
+----
+
+Description: This is my personal portfolio
+
+----
+
+Copyright: Designed and build by Marco Lurati ©2015-(date: Year)
+
+----
+
+Siteimage: 

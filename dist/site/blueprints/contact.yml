@@ -1,0 +1,34 @@
+// blueprint (template) name
+title: contact
+
+// page settings
+options:
+  delete: false
+  status: true
+
+// subpages settings
+pages: false
+
+// file settings
+files: 
+  fields: 
+      alt:
+        label: Alt text
+        type: text
+
+// fields contents  
+fields:
+  contacts:
+    label: Contact options
+    type: structure
+    style: table
+    fields:
+      name:
+        label: Contact
+        type: text
+      url:
+        label: Link
+        type: text
+      icon:
+        label: Icon
+        type: image

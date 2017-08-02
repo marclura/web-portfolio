@@ -1,0 +1,35 @@
+// blueprint (template) name
+title: Site
+
+// page settings
+options:
+  delete: false
+  status: false
+
+// subpages settings
+pages: default
+
+// file settings
+files: 
+  fields: 
+      alt:
+        label: Alt text
+        type: text
+
+// fields contents  
+fields:
+  title:
+    label: Title
+    type:  text
+  author:
+    label: Author
+    type:  text
+  description:
+    label: Description
+    type:  textarea
+  copyright:
+    label: Copyright
+    type:  textarea
+  siteimage:
+    label: Site image for socials
+    type: image
