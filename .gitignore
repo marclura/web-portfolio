@@ -18,6 +18,11 @@ Icon
 /site/cache/*
 !/site/cache/index.html
 
+# Distribution site
+# -----------------
+
+/dist/*
+
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
 # -------------SECURITY-------------
@@ -25,11 +30,11 @@ Icon
 # Kirby accounts
 # ---------------
 
-/site/accounts/*
-!/site/accounts/index.html
+dev/site/accounts/*
+!dev/site/accounts/index.html
 
 # Avatars
 # ---------------
 
-/assets/avatars/*
-!/assets/avatars/index.html
+dev/assets/avatars/*
+!dev/assets/avatars/index.html
