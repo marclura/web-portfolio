@@ -1,16 +1,12 @@
 # Web portfolio
 
+The website is build with [Kirby CMS](https://getkirby.com/), it uses [Lost grid](http://lostgrid.org/) as grid system and [stylus](http://stylus-lang.com/) as CSS language.
+
 ## Installation
 
 Install [Node.js](https://nodejs.org/en/).
 
-Install those node modules:
-
-```
-$ npm install gulp, gulp-sass, gulp-concat, gulp-sourcemaps, gulp-rename, gulp-connect-php
-```
-
-or use the package.json file to install all the modules at once:
+Install the required node modules using the package.json file:
 
 ```
 $ npm install
