@@ -4,12 +4,20 @@
   "description": "Personal web portfolio",
   "main": "gulpfile.js",
   "devDependencies": {
+    "autoprefixer": "^7.2.1",
+    "cssnano": "^3.10.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-connect-php": "^1.0.1",
+    "gulp-less": "^3.3.2",
+    "gulp-postcss": "^7.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0"
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-stylus": "^2.6.0",
+    "less": "^2.7.3",
+    "lost": "^8.2.0",
+    "poststylus": "^1.0.0"
   },
   "repository": {
     "type": "git",

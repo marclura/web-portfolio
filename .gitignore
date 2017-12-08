@@ -30,11 +30,11 @@ Icon
 # Kirby accounts
 # ---------------
 
-dev/site/accounts/*
-!dev/site/accounts/index.html
+src/site/accounts/*
+!src/site/accounts/index.html
 
 # Avatars
 # ---------------
 
-dev/assets/avatars/*
-!dev/assets/avatars/index.html
+src/assets/avatars/*
+!src/assets/avatars/index.html
