@@ -42,4 +42,3 @@ In the gile .gitignore file add the node_module folder, and be sure that Kirby h
 ```sh
 /node_module/*
 ```
-
