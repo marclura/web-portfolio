@@ -19,18 +19,23 @@ $ npm init
 Install the node modules
 
 ```sh
-$ npm install --save-dev gulp
-$ npm install --save-dev gulp-util
-$ npm install --save-dev gulp-concat
-$ npm install --save-dev gulp-sass
-$ npm install --save-dev gulp-sourcemaps
-$ npm install --save-dev gulp-rename
-$ npm install --save-dev gulp-connect-php
+$ npm install --save-dev package
 
 ```
 
 (With the command --save-dev npm will add them to the package.json file automatically)
 
+To remove them
+
+```sh
+$ npm uninstall --save-dev package
+```
+
+To show the installed packages
+
+```sh
+$ npm ls --depth=0	// without dependencies
+```
 
 In the gile .gitignore file add the node_module folder, and be sure that Kirby has the right setup for security (accounts for the panel)
 
