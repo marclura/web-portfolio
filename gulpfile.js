@@ -20,7 +20,6 @@ var env,
 // Creting the environment
 env = process.env.NODE_ENV || 'src';
 
-
 if (env==='src') {
   outputDir = 'src/';
 } else {
