@@ -1,8 +1,6 @@
 // Packages
 var gulp = require('gulp'),
     concat = require('gulp-concat'),
-    sass = require('gulp-sass'),
-    less = require('gulp-less'),
     stylus = require('gulp-stylus'),
     sourcemaps = require('gulp-sourcemaps'),
     rename = require('gulp-rename'),
@@ -15,11 +13,8 @@ var gulp = require('gulp'),
 // Variables declaration
 var env,
     jsSources,    // path to the js files
-    sassMainSource,   // the main.scss that @include all the other sass files
-    sassWatchSources,   // paths to the scss files
-    lessWatchSources,   // paths for the less files
-    stylusWatchSources,   // paths for the stylus files
-    outputDir,
+    stylusSource,   // file to check to update the css
+    outputDir,    // path to output the files
     cssOutputDir;    // define if it's the src output or the distribution
 
 // Creting the environment
@@ -38,24 +33,16 @@ cssOutputDir = outputDir + 'assets/builds/';
 // Sources
 jsSources = [
   'src/assets/js/*.js',
-  'src/assets/js/**/*.js'
+  'src/assets/js/**/*.js',
+  'src/site/modules/**/*.js'
 ];
 
-sassMainSource = [ 'src/assets/sass/main.scss'];
-
-sassWatchSources = [
-  'src/assets/sass/*.scss',
-  'src/assets/sass/**/*.scss'
-];
-
-lessWatchSources = [
-  'src/assets/less/*.less',
-  'src/assets(less/**/*.less'
-];
+stylusMainSource = outputDir + '/assets/stylus/main.styl';
 
 stylusWatchSources = [
   'src/assets/stylus/*.styl',
-  'src/assets/stylus/**/*.styl'
+  'src/assets/stylus/**/*.styl',
+  'src/site/modules/**/*.styl'
 ];
 
 
@@ -67,34 +54,10 @@ gulp.task('js', function() {
 })
 
 
-gulp.task('sass', function() {
-  return gulp.src(sassMainSource)
-    .pipe(sourcemaps.init())
-    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-    .pipe(postcss([
-        lost(),
-        cssnano()
-      ]))
-    .pipe(rename('style.css'))
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest(cssOutputDir))
-})
-
-gulp.task('less', function() {
-  gulp.src(lessWatchSources)
-    .pipe(sourcemaps.init())
-    .pipe(less())
-    .pipe(rename('style.css'))
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest(cssOutputDir))
-})
-
 gulp.task('stylus', function() {
-  return gulp.src(stylusWatchSources)
+  return gulp.src(stylusMainSource)
     .pipe(sourcemaps.init())
-    .pipe(stylus({
-
-    }))
+    .pipe(stylus())
     .pipe(postcss([
         lost(),
         autoprefixer(),
@@ -112,11 +75,9 @@ gulp.task('connect', function() {
 
 gulp.task('watch', function() {
   gulp.watch(jsSources, ['js']);
-  //gulp.watch(sassWatchSources, ['sass']);
-  //gulp.watch(lessWatchSources, ['less']);
   gulp.watch(stylusWatchSources, ['stylus']);
 })
 
 
 // This default task will be executed by just writing $ gulp in the CLI
-gulp.task('default', ['connect', 'stylus', 'watch']);
+gulp.task('default', ['connect', 'stylus', 'js', 'watch']);

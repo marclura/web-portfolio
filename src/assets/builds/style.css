@@ -1,2 +1,2 @@
-main{background:#00f}main div{width:calc(99.9% * 2/3 - 10px)}main div:nth-child(1n){float:left;margin-right:30px;clear:none}main div:last-child{margin-right:0}main div:nth-child(3n){margin-right:0;float:right}main div:nth-child(3n+1){clear:both}p{display:-webkit-box;display:-ms-flexbox;display:flex}
+.button{color:green}div{display:block}p{color:green}.gallery{display:block}.vimeo{color:#00f;min-width:100%}
 /*# sourceMappingURL=style.css.map */
