@@ -59,8 +59,8 @@ gulp.task('stylus', function() {
     .pipe(stylus())
     .pipe(postcss([
         lost(),
-        autoprefixer(),
-        cssnano()
+        autoprefixer()/*,
+        cssnano()*/
       ]))
     .pipe(rename('style.css'))
     .pipe(sourcemaps.write('./'))

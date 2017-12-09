@@ -1,5 +1,31 @@
 //--- GRID ---//
 
+// rem value for the whole website
 html
 	font-size: 18px
-	
+
+// breakpoints hash collection
+breakpoints_values = {
+	small: 480px,
+	medium: 736px,
+	tablet: 960px,
+	desktop: 1280px,
+	large: 1690px
+}
+
+media_queries = {
+	s: 'screen and (min-width: ' + breakpoints_values['small'] + ')',
+	m: 'screen and (min-width: ' + breakpoints_values['medium'] + ')',
+	t: 'screen and (min-width: ' + breakpoints_values['tablet'] + ')',
+	d: 'screen and (min-width: ' + breakpoints_values['desktop'] + ')',
+	l: 'screen and (min-width: ' + breakpoints_values['large'] + ')'
+}
+
+// function to return the desired media query
+bp(breakpoints)
+	conditions = ()
+	for breakpoint in breakpoints
+		push(conditions, media_queries[breakpoint])
+	conditions = join(", ", conditions)
+	@media conditions
+		{block}

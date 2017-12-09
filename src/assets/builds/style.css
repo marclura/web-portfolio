@@ -1,2 +1,26 @@
-.button{color:green}div{display:block}html{font-size:18px}p{color:green}.gallery{display:block}.vimeo{color:#00f;min-width:100%}
+.button {
+  color: #008000;
+}
+div {
+  display: block;
+}
+html {
+  font-size: 18px;
+}
+html {
+  background-color: #00f;
+}
+@media screen and (min-width: 736px) {
+  html {
+    background-color: #008000;
+  }
+}
+.gallery {
+  display: block;
+}
+.vimeo {
+  color: #00f;
+  min-width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
