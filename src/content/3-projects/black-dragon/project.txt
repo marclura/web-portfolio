@@ -1,0 +1,53 @@
+Title: Black Dragon
+
+----
+
+Subtitle: Interactive environnement installation
+
+----
+
+Abstract: The project gaves as outcome a small-scale prototype representing a big ceiling installation designed for a big circus company show. The installation consists in a long-limbed wavy surface hanging on the audience and moving like a river. The triangular texture maintains the industrial heritage of the building for witch the installation as been designed. The surface is illuminated to highlight the shapes of the surface and the movement as well. The audience can interact with the surface and bring it alive thanks to the physical interface composed by buttons and positioned under the surface on its all length. Each segment of the interface does move the correspondent segment of the surface.
+
+----
+
+Paragraphs: 
+
+----
+
+Coverimage: 
+
+----
+
+Thumbimage: 
+
+----
+
+Video: 
+
+----
+
+Roles: 
+
+----
+
+Technologies: 
+
+----
+
+Credits: 
+
+----
+
+Copyright: byncsa
+
+----
+
+Repo: 
+
+----
+
+Extlinks: 
+
+----
+
+Gallery: 

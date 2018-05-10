@@ -1,0 +1,53 @@
+Title: RGB Color Lab
+
+----
+
+Subtitle: How computer sees colours
+
+----
+
+Abstract: The "RGB color lab" is a project to demonstrate to children how the computer sees colors. In other words, the child can understand how the RGB system works by testing different physical colors and see the amount of red, green and blue there are in it. As output, the R, G and B levels are displayed on the bars of LEDs to easily and immediately get the relation between physical color and digital "translation" of it. The second functionality of the device is to generate the colors digitally, like in Illustrator e.g., by sliding up and down the R,G and B sliders. The result is displayed on the output panel with the individual intensity of each channel and the mix of them on top as resulting color (like it happens on the screen with the pixels). The project attempts to explain in a simple, fun and playful way without numbers how the RGB color system works on the computer (generally speaking).
+
+----
+
+Paragraphs: 
+
+----
+
+Coverimage: 
+
+----
+
+Thumbimage: 
+
+----
+
+Video: 
+
+----
+
+Roles: 
+
+----
+
+Technologies: 
+
+----
+
+Credits: 
+
+----
+
+Copyright: byncsa
+
+----
+
+Repo: 
+
+----
+
+Extlinks: 
+
+----
+
+Gallery: 

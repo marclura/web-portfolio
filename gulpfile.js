@@ -68,7 +68,7 @@ gulp.task('stylus', function() {
 })
 
 gulp.task('connect', function() {
-  connect.server({ base: outputDir, port: 3000, keepalive: true });
+  connect.server({ base: outputDir, port: 3000, keepalive: false });
 })
 
 
